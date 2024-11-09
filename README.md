@@ -19,13 +19,15 @@ Environment Variables
 
 The following environment variables should be set in the Application Settings of your Function App for security:
 
-Variable Name	Description
-ExchangeServer	The fully qualified domain name or IP address of the Exchange server
-Email	The test email address
-Password	Password for the test email address
-AsyncUser	Username for ActiveSync tests
-BlobString	Connection string for the blob storage
-NotificationUrl	Teams Incoming Webhook URL
+| Variable Name        | Description                                            |
+|----------------------|--------------------------------------------------------|
+| `ExchangeServer`     | The fully qualified domain name or IP address of the Exchange server |
+| `Email`              | The test email address                                 |
+| `Password`           | Password for the test email address                    |
+| `AsyncUser`          | Username for ActiveSync tests                          |
+| `BlobString`         | Connection string for the blob storage                 |
+| `NotificationUrl`    | Teams Incoming Webhook URL                             |
+
 
 PowerShell Script
 
