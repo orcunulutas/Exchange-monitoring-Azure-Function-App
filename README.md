@@ -1,4 +1,4 @@
-Azure Function App - Exchange Connection and ActiveSync Test
+# Azure Function App - Exchange Connection and ActiveSync Test
 
 This Azure Function App is a PowerShell script designed to test the connection to an Exchange server and ActiveSync functionality. Test results are returned in JSON format, and in case of a failure, a notification is sent to Teams.
 
@@ -59,9 +59,6 @@ Steps
 	2.	Add Teams Webhook URL: Set the NotificationUrl environment variable with your Teams Incoming Webhook URL to receive notifications.
 	3.	Run the Function App: You can run it via HTTP trigger or timer trigger.
 
-Example Request
-
-Invoke-WebRequest -Uri "https://your-function-app-url/api/HttpTriggerName" -Method Get
 
 Additional Information
 
